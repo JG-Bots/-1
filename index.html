@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>JG-Bots Rest Api</title>
+    <meta name="description"content="JG-BOTS"/>
+<link href="https://jg-botsofc.github.io/arquivos2/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link rel="icon" href="https://i.postimg.cc/PrW4cfDs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/red.css" id="theme-color">
+</head>
+<body>
+
+<section class="smart-scroll">
+<div class="container-fluid">
+<nav class="navbar navbar-expand-md navbar-dark">
+<a class="navbar-brand heading-black" href="/">JG-BOTS API'S</a>
+<button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+<span data-feather="grid"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+<ul class="navbar-nav ml-auto">
+
+<li class="nav-item"><a class="nav-link page-scroll d-flex flex-row align-items-center" href="/out">
+<i class="fas fa-tag"></i><em class="mr-2"></em>
+Outras
+</a>
+
+<li class="nav-item"><a class="nav-link page-scroll d-flex flex-row align-items-center" href="/log">
+<i class="fas fa-image"></i><em class="mr-2"></em>
+Logos-TXT
+</a>
+
+<li class="nav-item"><a class="nav-link page-scroll d-flex flex-row align-items-center" href="/dow">
+<i class="fas fa-download"></i><em class="mr-2"></em>
+Downloads
+</a>
+</li>
+
+<li class="nav-item"><a class="nav-link page-scroll d-flex flex-row align-items-center" href="/fun">
+<i class="fas fa-file"></i><em class="mr-2"></em>
+Funções
+</a>
+
+</ul>
+</div>
+</nav>
+</div>
+</section>
+
+<section class="py-7 py-md-0" id="home">
+<!-- End Navbar -->
+
+<div class="content">
+<div class="col-lg-6 col-md-12">
+<div class="card ">
+<div class="card overflow-hidden dash1-card border-0">
+<div class="card-body">
+<div class="d-flex align-items-end justify-content-between">
+<div>
+<p class=" mb-1 ">ENDEREÇO IP ↯</p>
+<h2 class="mb-1 number-font">
+<div id="ip">
+<html>
+<body>
+<script type="text/javascript">
+var userip;
+</script>
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+<h3 class="mb-0" ><script type="text/javascript">
+document.write(userip);
+</script></h3>
+</body>
+</html>
+</div>
+</h2>
+<small class="fs-12 text-muted">Seu IP</small>
+</div>
+<span class="text-info fs-35 dash1-iocns bg-info-transparent border-info"><i class="fa fa-wifi" aria-hidden="true"></i></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<form action="/api/cekapikey">
+<div class="content">
+<div class="col-lg-6 col-md-12">
+<div class="card ">
+<div class="card-header">
+<h4 class="card-title"><i class="tim-icons icon-key-25" aria-hidden="true"></i> CHECAR SE A KEY É VÁLIDA</h4>
+</div>
+<div class="card-body text-sm-left font-weight-bold">
+<input class="form-control font-weight-bold text-center" type="text" placeholder="DIGITE A KEY" name="apikey" required>
+<small id="textHelp" class="font">
+não tem apikey? compre uma agora!
+<a href="https://wa.me/6285852203076">
+Whatsapp
+</a>
+</small>
+</br>
+</br>
+<button type="submit" class="btn btn-primary content-justify-center"><i class="mdi mdi-arrow-right-bold-hexagon-outline"></i> <span class="font-weight-bold">CHECAR</span></button>
+</div>
+</div>
+</div>
+</div>
+</form>
+
+</section>
+<!--
+=========================================================
+* * Forter Copy
+=========================================================
+-->
+<footer class="py-4">
+<div class="col-12 text-muted text-center">
+<a href="https://github.com/fawwaz37" target="_blank">© JG-Bots - JerfinhoPro</a>
+</div>
+</footer>
+
+<div class="scroll-top">
+<i class="fa fa-angle-left" aria-hidden="true"></i>
+</div>
+
+<!-- <script src="/script.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://zekais-api.herokuapp.com/js/scripts.js"></script>
+</body>
+</html>
